@@ -7,6 +7,7 @@ public class FastSum {
     do {
       BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
       BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+
       try {
         int t = Integer.parseInt(reader.readLine());
         if (t > 1000000) continue;
